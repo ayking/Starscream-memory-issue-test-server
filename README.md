@@ -10,7 +10,7 @@ This server to reproduce the memory issue
 3. Connect to the server with Starscream and receive the data successfully.
 
 Sample client code
-``
+```
 socket = WebSocket(url: NSURL(string: "ws://localhost:8080/")!)
 //websocketDidConnect
 socket.onConnect = {
@@ -30,4 +30,4 @@ socket.onData = { (data: NSData) in
 }
 //you could do onPong as well.
 socket.connect()
-``
+```
