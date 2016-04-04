@@ -5,8 +5,8 @@ var big_history = require('./big_history');
 var Server = http.createServer();
 
 var WebSocketServer = new WebSocketServerConstructor({
-	httpServer: Server,
-	autoAcceptConnections: true,
+    httpServer: Server,
+    autoAcceptConnections: true,
     fragmentationThreshold: 104857600
 });
 
