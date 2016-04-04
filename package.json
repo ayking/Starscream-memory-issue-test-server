@@ -1,0 +1,15 @@
+{
+  "name": "WebSocket",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "app.js",
+  "dependencies": {
+    "websocket": "1.0.22"
+  },
+  "author": "Ay",
+  "license": "UNLICENSED"
+}
