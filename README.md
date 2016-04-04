@@ -11,7 +11,7 @@ This server to reproduce the memory issue
 
 Sample client code
 ```
-socket = WebSocket(url: NSURL(string: "ws://localhost:8080/")!)
+socket = WebSocket(url: NSURL(string: "ws://host:port/")!)
 //websocketDidConnect
 socket.onConnect = {
     print("websocket is connected")
